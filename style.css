@@ -36,14 +36,95 @@
   -webkit-text-fill-color: transparent;
 }
 
-.btn{
-   background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
-   color: white;
-   padding: 12px 16px;
-   border: none;
-   border-radius: 20px;
+.btn {
+  background: linear-gradient(to right, #F7E93F, #FB09B4, #9100F8);
+  color: white;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 20px;
 }
 
-.btn i{
-   margin-left: 3px;
+.btn i {
+  margin-left: 3px;
 }
+
+#tw-section {
+  height: 37rem;
+  background-image: url(images/hero-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 80px;
+  position: relative;
+}
+
+.inner-img {
+  width: 17.5rem;
+  height: 17.5rem;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+.outer-img {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -28%);
+  width: 6rem;
+}
+
+.text-content {
+  position: absolute;
+  bottom: 80px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.text-content h1 {
+  color: white;
+  font-size: 50px;
+  margin-bottom: 8px;
+}
+
+.text-content p {
+  color: white;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn-1 i {
+  margin-right: 5px;
+}
+
+.btn-2 {}
+
+.btn-2 {
+  background: transparent;
+  color: #00FF88;
+  border: 1px solid #00FF88;
+}
+
+.btn-2 i {
+  margin-right: 5px;
+}
+
+.badge {
+    position: absolute;
+    top: 12%;
+    right: 39%;
+    background-color: #00FF88;
+    color: #1A0B2E;
+    padding: 10px 19px;
+    border-radius: 25px;
+    font-weight: 600;
+    font-size: 14px;
+  }
