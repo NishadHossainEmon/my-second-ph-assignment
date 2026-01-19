@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 
-.hamburger{
+.hamburger {
   display: none;
 }
 
@@ -291,7 +291,7 @@
   margin-bottom: 10px;
 }
 
-.episode-content p{
+.episode-content p {
   margin-bottom: 10px;
 }
 
@@ -402,8 +402,32 @@
   gap: 5px;
 }
 
-#footer p{
+#footer p {
   font-weight: 300;
 }
 
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
 
+  to {
+    opacity: 1;
+  }
+}
+
+#tw-section,
+#about,
+#choosen-section {
+  animation: fadeIn 1s ease-in;
+}
+
+.feature-card,
+.card {
+  transition: transform 0.3s ease;
+}
+
+.feature-card:hover,
+.card:hover {
+  transform: scale(1.05);
+}
