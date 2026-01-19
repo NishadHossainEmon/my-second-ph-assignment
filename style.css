@@ -10,6 +10,10 @@
   margin: 0 auto;
 }
 
+.hamburger{
+  display: none;
+}
+
 #nav-bar,
 #about {
   background-color: #1A0B2E;
@@ -256,6 +260,7 @@
 
 .card-box {
   display: flex;
+  flex: 1;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
@@ -268,19 +273,26 @@
   height: 25rem;
 }
 
+
 .video-container iframe {
+  width: 100%;
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
 
 .episode-content {
-  padding: 25px;
+  padding: 10px 20px;
   position: relative;
   font-weight: 300;
 }
 
 .episode-content h2 {
-  font-size: 22px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.episode-content p{
+  margin-bottom: 10px;
 }
 
 .minute-3 {
