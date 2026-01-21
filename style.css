@@ -67,30 +67,48 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 5rem;
+  padding: 4.8rem;
   position: relative;
 }
 
-.inner-img {
+.img {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
   width: 17.5rem;
   height: 17.5rem;
+}
+
+.inner-img {
+  width: 100%;
   position: absolute;
-  top: 20%;
-  left: 50%;
-  transform: translate(-50%, -20%);
+  left: 0%;
+  bottom: 0%;
 }
 
 .outer-img {
   position: absolute;
-  top: 28%;
-  left: 50%;
-  transform: translate(-50%, -28%);
+  left: 33%;
+  bottom: 26%;
   width: 6rem;
 }
 
-.text-content {
+.badge {
   position: absolute;
-  bottom: 5rem;
+  left: 72%;
+  bottom: 85%;
+  background-color: #00FF88;
+  color: #1A0B2E;
+  padding: 9px 1.2rem;
+  border-radius: 1.5rem;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.text-content {
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
@@ -126,18 +144,6 @@
 
 .btn-2 i {
   margin-right: 5px;
-}
-
-.badge {
-  position: absolute;
-  top: 12%;
-  right: 39%;
-  background-color: #00FF88;
-  color: #1A0B2E;
-  padding: 10px 1.2rem;
-  border-radius: 1.5rem;
-  font-weight: 600;
-  font-size: 14px;
 }
 
 #about {
@@ -296,8 +302,7 @@
 }
 
 .minute-3 {
-  position: absolute;
-  top: 96%;
+  margin-top: 30px;
 }
 
 .time {
@@ -375,7 +380,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  padding: 5rem;
+  padding: 5rem 22px;
   text-align: center;
 }
 
